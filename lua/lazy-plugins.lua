@@ -76,6 +76,11 @@ require('lazy').setup({
   require 'custom/kickstart-plugins/more-mini',
   require 'custom/kickstart-plugins/todo-comments',
   -- require 'custom/kickstart-plugins/which-key',
+
+  -- Custom plugins
+  require 'custom/plugins/nvim-tree',
+  require 'custom/plugins/project',
+  require 'custom/plugins/toggleterm',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
